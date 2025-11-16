@@ -1,16 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Page</title>
+    <title>Katky cesta</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1>Welcome to My Simple Page</h1>
+    <div class="main-container">
+        <!-- Kontejner pro fotku a nadpis s obrázkem na pozadí -->
+        <div class="header-container">
+            <img src="images/katka.jpg" alt="Katka" class="profile-photo">
+            <h1>Katky cesta digitální akademií testování</h1>
+        </div>
 
-    <p>This is a paragraph of text. The colors and font of this text are being controlled by the linked external CSS file, 'styles.css'.</p>
+        <!-- Obsah stránky -->
+        <div class="content">
+            <nav>
+              <ul>
+                <li><a href="#kapitola1">Proč jsem se přihlásila</a></li>
+                <li><a href="#kapitola2">Co jsem se naučila</a></li>
+                <li><a href="#kapitola3">Co dál?</a></li>
+                <li><a href="#kapitola4">Poděkování</a></li>
+              </ul>
+            </nav>
+
+            <h2 id="kapitola1">Proč jsem se přihlásila</h2>
+            <p>Přihlásila jsem se do Digitální akademie, protože chci rozvíjet nové dovednosti a posunout se do oboru, který mě dlouhodobě lákal.</p>
+
+            <h2 id="kapitola2">Co jsem se naučila</h2>
+            <p>V Digitální akademii jsem se naučila základy testování, práci s Jira, tvorbu testovacích scénářů a základy API a automatizace.</p>
+            
+            <h2 id="kapitola3">Co dál?</h2>
+            <p>Tím moje cesta nekončí. Po akademii chci dál rozvíjet svoje dovednosti, zkoušet nové nástroje a najít tým, kde spojím svou chuť učit se s realitou života mámy dvou dětí.</p>
+
+            <h2 id="kapitola4">Poděkování</h2>
+            <p>Zvláštní poděkování patří našemu nejmenovanému přísnému panu učiteli 😄, který nám nedal vydechnout — ale přesně díky tomu teď víme, co děláme.</p>
+        </div>
+    </div>
 
 </body>
 </html>
